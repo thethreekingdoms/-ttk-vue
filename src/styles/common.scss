@@ -1,0 +1,14 @@
+/**  common part css
+* 1. 尽量不要嵌套层级
+* 2. 请写好注视，相同元素的样式写在一起
+*/
+
+/** input */
+.el-input__inner {
+	padding: 0 8px;
+}
+.input-right {
+	.el-input__inner {
+		text-align: right;
+	}
+}
